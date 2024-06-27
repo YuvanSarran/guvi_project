@@ -12,7 +12,7 @@ $(document).on('click','#btn_signin',function(e){
     else if(!/^[a-z A-Z]+$/.test(username)){ // check username allowed capital and small letters 
         alert('username only capital and small letters are allowed !!'); 
     }
-    else if(password == ''){ //check password not empty
+    else if(password == ''){ 
         alert('please enter password !!'); 
     }
     else{			
